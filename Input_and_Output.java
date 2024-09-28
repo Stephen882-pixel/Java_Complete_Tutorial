@@ -24,6 +24,7 @@ class Input_and_Output{
         String name = input.next();
         System.out.println("Your name is :" + name);
         input.close();
+    
 
 
     }
