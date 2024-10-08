@@ -14,6 +14,17 @@ class arrays{
         // Checking the array length
         System.out.println(cars.length);
         System.out.println(myNum.length);
-        
+
+        // Looping through an array 
+        for(int i=0;i<cars.length;i++){
+            System.out.println(cars[i]);
+        }
+        for(int i=0;i<myNum.length;i++){
+            System.out.println(myNum[i]);
+        }
+
+        for (String i : cars){
+            System.out.println(i);
+        }
     }
 }
