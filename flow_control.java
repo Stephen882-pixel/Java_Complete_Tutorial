@@ -35,5 +35,23 @@ class ControlFlow{
         }else{
             System.out.println("The number is zero");
         }
+
+        // Nested if..else statement - this is using if...else inside another if...else statement 
+        Double n1 = -1.0, n2 = 4.5, n3 = -5.3, largest;
+        if (n1>=n2){
+            if (n2>=n3){
+                largest = n1;
+            }
+            else {
+                largest = n3;
+            }
+        }else{
+            if (n2>=n3){
+                largest = n2;
+            } else {
+                largest = n3;
+            }
+        }
+        System.out.println("Largest number: " + largest);
     }
 }
