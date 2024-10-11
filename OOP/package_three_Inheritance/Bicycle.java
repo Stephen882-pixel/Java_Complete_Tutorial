@@ -1,4 +1,4 @@
-package package_three;
+package package_three_Inheritance;
 
 public class Bicycle {
     protected int  gear;
@@ -18,3 +18,6 @@ public class Bicycle {
         speed += increment;
     }
 }
+
+
+

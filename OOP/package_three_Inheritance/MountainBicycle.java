@@ -1,4 +1,4 @@
-package package_three;
+package package_three_Inheritance;
 
 class MountainBicycle extends Bicycle {
     public int seatHeight;
