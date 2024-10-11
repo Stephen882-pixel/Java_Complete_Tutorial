@@ -75,6 +75,7 @@ public class optionsMenu extends Account {
             case 1:
                 System.out.println("Checking account Balance:" + moneyFormat.format(getChecking());
                 geAccountType();
+                break;
             case 2:
                 getCheckingWithdrawInput();
                 geAccountType();
@@ -85,6 +86,36 @@ public class optionsMenu extends Account {
                 break;
             case 4:
                 System.out.println("Thank you for using this ATM,Bye! \n");
+                break;
+            default:
+                System.out.println("\n" + "Invalid choice." + "\n");
+                getChecking();
+        }
+    }
+    public void getSaving(){
+        System.out.println("Saving account:");
+        System.out.println("Type 1 - View Balance");
+        System.out.println("Type 2 - Withdraw funds");
+        System.out.println("Type 3 - Withdraw funds");
+        System.out.println("Type 4 - Exit");
+        System.out.println("Choice:");
+
+        int selection = menuInput.nextInt();
+        switch (selection){
+            case 1:
+                System.out.println("Saving Account Balance: " + moneyFormat.format(getSaving);
+                geAccountType();
+                break;
+            case 2:
+                getSavingWithDrawInput();
+                geAccountType();
+                break;
+            case 3:
+                geSavingDepositInput();
+                geAccountType();
+                break;
+            case 4:
+                System.out.println("Thank you for using this ATM,Bye!");
                 break;
             default:
                 System.out.println("\n" + "Invalid choice." + "\n");
