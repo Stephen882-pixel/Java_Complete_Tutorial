@@ -73,7 +73,8 @@ public class optionsMenu extends Account {
 
         switch (selection){
             case 1:
-                System.out.println("Checking account Balance:" + moneyFormat.format(getChecking());
+                double getChecking = 0;
+                System.out.println("Checking account Balance: " + moneyFormat.format(getChecking));
                 geAccountType();
                 break;
             case 2:
@@ -103,7 +104,8 @@ public class optionsMenu extends Account {
         int selection = menuInput.nextInt();
         switch (selection){
             case 1:
-                System.out.println("Saving Account Balance: " + moneyFormat.format(getSaving);
+                double getSaving = 0;
+                System.out.println("Saving Account Balance: " + moneyFormat.format(getSaving));
                 geAccountType();
                 break;
             case 2:
@@ -121,6 +123,12 @@ public class optionsMenu extends Account {
                 System.out.println("\n" + "Invalid choice." + "\n");
                 getChecking();
         }
+    }
+
+    private void geSavingDepositInput() {
+    }
+
+    private void getSavingWithDrawInput() {
     }
 }
 
