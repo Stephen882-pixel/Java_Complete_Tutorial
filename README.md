@@ -48,28 +48,7 @@ Installation
 
     Compile and run the Java files for the tutorials or navigate to the atmProject for the OOP project.
 
-Project Structure
 
-bash
-
-java_complete_tutorial/
-│
-├── fundamentals/                # Java fundamentals like control flows, variables, data types, etc.
-│   ├── ControlFlows.java
-│   ├── Variables.java
-│   └── DataTypes.java
-│
-├── oop/                         # OOP concepts including inheritance, abstraction, encapsulation, and interfaces.
-│   ├── InheritanceExample.java
-│   ├── EncapsulationExample.java
-│   ├── AbstractionExample.java
-│   └── atmProject/              # Simple ATM project demonstrating OOP in practice.
-│       ├── ATM.java
-│       ├── Customer.java
-│       ├── Account.java
-│       └── CheckingAccount.java
-│
-└── README.md                    # You are here!
 
 Tutorial Topics
 Fundamental Concepts
